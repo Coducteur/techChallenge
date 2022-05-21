@@ -2,26 +2,57 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Web Development Tech Challenge</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Welcome to the Kingdom of Colchis</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <!--Content goes here-->
+    <!--Content goes here-->
 
-  <!-- Navigation Section-->
-  About | Royal Family | Royal Assets | Contact Us
+    <!-- Navigation Section-->
+    <header class="flexContainer">
+        <div id="logo" role="logoImg">
+            <img src="img/img.png" alt="logo" width="64" height="64" />
+        </div>
+        <nav id="mainNav">
+            <ul class="flexContainer">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/royal-family.html">Royal Family</a></li>
+                <li><a href="/assets.html">Royal Assets</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 
- 
-  <!-- Add this to a seperate page, e.g. royal-family.html
+    <!-- Add this to a seperate page, e.g. royal-family.html
 			Images and text aligned next to each other -->
-  <h2>
-    The Royal Family
-  </h2>
+    <h2 class="hTitles">
+        The Royal Family
+    </h2>
+    <section class="flexContainer">
+        <div class="centerObject">
+            <img src="/img/aeetes.png" alt="The King Aeetes" height="512" />
+            <figcaption>King Aeetes</figcaption>
+            <p id="Aeetes" class="quote">Brrrrrr, It's getting cold ! <br /> Where is my Golden Fleece ?</p>
+        </div>
 
- 
+        <div class="centerObject">
+            <img src="/img/madeas.jpeg" alt="Princess Madeas"  height="512" />
+            <figcaption>Princess Madeas</figcaption>
+            <p id="Madeas" class="quote">I'm looking for my little brother. <br />Have you seen it ?</p>
+        </div>
+
+        <div class="centerObject">
+            <img src="/img/Idyia.jpeg" alt="" height="512">
+            <figcaption>Queen Idyia</figcaption>
+            <p id="Idyia" class="quote">I know Everything... <br>But... wait, what's this ?</p>
+        </div>
+
+    </section>
+
+
 </body>
 
 </html>

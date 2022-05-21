@@ -1,5 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Parisienne&family=Permanent+Marker&family=Rock+Salt&family=Sacramento&display=swap');
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.1em;
-    background-color: khaki;
+    background-color: rgba(247, 233, 153, 0.923);
+}
+
+Header {
+    background-color: rgb(240, 131, 41);
+}
+
+.hTitles {
+    font-family: 'Libre Basjerville';
+    margin: 0;
+    padding-top: 15%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+#welcome {
+    height: 600px;
+    background-image: url(/img/img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    text-shadow: 2px 2px gray;
+
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#mainNav li, a {
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+}
+
+
+ul {
+    padding: 0;
+}
+
+Nav {
+    width: 85%;
+}
+
+.centerObject {
+    text-align: center;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+#Aeetes {
+    font-family: 'Rock salt';
+    font-size: 26px;
+}
+
+#Madeas {
+    font-family: 'Sacramento';
+}
+
+#Idyia {
+    font-family: 'Parisienne';
 }
