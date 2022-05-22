@@ -14,6 +14,7 @@ Header {
 header a {
     color: white;
 }
+
 header a:hover {
     color: black;
 }
@@ -23,7 +24,7 @@ header a:hover {
     margin-top: 10px;
     padding-top: 10px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -38,6 +39,13 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+}
+
+.flexContainerVertical {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 
 }
 
@@ -56,15 +64,42 @@ ul {
 }
 
 Nav {
-    width: 85%;
+    width: 70%;
+}
+
+
+.tooltip {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    position:sticky
+    z-index: 100;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 footer {
     background-color: rgb(240, 131, 41);
     color: white;
     font-size: 0.8em;
-    position: fixed;
-    width: 100vw;
+    margin-top: 10px;
+    width: 98vw;
     height: 2.5em;
     left: 0;
     bottom: 0;
@@ -77,28 +112,25 @@ footer {
 
 /* index page */
 #welcome {
-    height: 1000px;
+    height: 600px;
     background-image: url(/img/bateau.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     text-align: center;
-    text-shadow: 2px 2px gray;
+    text-shadow: 4px 4px gray;
 }
+
 
 
 
 /* royal Family page */
 .quote {
     font-size: 36px;
+    margin-bottom: 0;
 }
 
-.flexContainerVertical {
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
 
-}
 
 #Aeetes {
     font-family: 'Rock salt', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -116,7 +148,7 @@ footer {
 
 /* contact page*/
 #contact {
-    height: 900px;
+    height: 650px;
     background-image: url(/img/paperUsed.jpeg);
     background-size: cover;
     text-align: center;
@@ -149,9 +181,11 @@ th {
 .trWhite {
     background-color: white;
 }
+
 .trOrange {
     background-color: rgb(240, 131, 41);
 }
+
 td {
     border-top: 1px solid;
 

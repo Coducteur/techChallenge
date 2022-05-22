@@ -13,7 +13,7 @@
 
   <!-- Navigation Section-->
   <header class="flexContainer">
-    <div id="logo">
+    <div id="logo" class="flexContainerVertical">
       <img src="img/logo.png" alt="logo" width="100" />
     </div>
     <nav id="mainNav">
@@ -24,10 +24,16 @@
         <li><a href="/contact.html">Contact Us</a></li>
       </ul>
     </nav>
+    <div id="lang" class="tooltip">
+      <a href="/fr/contactFR.html"><img src="/img/World-fr.png" alt="switch langage" width="70"></a>
+      <span class="tooltiptext">Switch langage to FR</span>
+    </div>
   </header>
+
+  <!-- main content-->
   <main>
     <h1 class="hTitles">Please Contact Us !</h1>
-    
+
     <section id="contact">
       <h2>
         Fill in the form below to contact the Royal Kingdom
@@ -36,9 +42,9 @@
         <label for="fName">Your Name:</label><br />
         <input type="text" name="fName" id="fName" value="Your Name" autofocus><br />
         <label for="eMail">Your Email:</label><br />
-        <input type="email" name="email" id="eMail" value="yourmail@yourKingdom.com"><br />
+        <input type="email" name="email" id="eMail" value="yourmail(at)yourKingdom.com"><br />
         <label for="message">What's your Message ?</label><br />
-        <textarea name="message" id="message" rows="25"></textarea><br />
+        <textarea name="message" id="message" rows="15"></textarea><br />
         <button type="submit">Submit</button>
       </form>
     </section>
@@ -46,6 +52,7 @@
     <!-- Connect the Javascript file -->
     <script src="script.js"></script>
   </main>
+  <!-- Footer -->
   <footer>
     <p>&copy; The Beautiful Kingdom of Colchis</p>
   </footer>

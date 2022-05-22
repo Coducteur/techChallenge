@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Bienvenue au royaume de Colchide</title>
+  <link href="/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!--Content goes here-->
+
+  <!-- Navigation Section-->
+  <header class="flexContainer">
+    <div id="logo" class="flexContainerVertical">
+      <img src="/img/logo.png" alt="logo" width="100" />
+    </div>
+    <nav id="mainNav">
+      <ul class="flexContainer">
+        <li><a href="/fr/indexFR.html">Accueil</a></li>
+        <li><a href="/fr/royal-familyFR.html">Famille Royale</a></li>
+        <li><a href="/fr/assetsFR.html">Actifs Royaux</a></li>
+        <li><a href="/fr/contactFR.html">Contactez nous</a></li>
+      </ul>
+    </nav>
+    <div id="lang" class="tooltip">
+      <a href="/contact.html"><img src="/img/Fr-world.png" alt="switch langage" width="70"></a>
+      <span class="tooltiptext">Changez de langue</span>
+    </div>
+  </header>
+
+  <!-- main content-->
+  <main>
+    <h1 class="hTitles">Contactez nous !</h1>
+
+    <section id="contact">
+      <h2>
+        Remplissez le formulaire ci dessous pour contacter la famille royale
+      </h2>
+      <form id="formContact">
+        <label for="fName">Votre Nom:</label><br />
+        <input type="text" name="fName" id="fName" value="Votre Nom" autofocus><br />
+        <label for="eMail">Votre Email:</label><br />
+        <input type="email" name="email" id="eMail" value="votremail(at)votreroyaume.com"><br />
+        <label for="message">Quel est votre Message ?</label><br />
+        <textarea name="message" id="message" rows="15"></textarea><br />
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- Connect the Javascript file -->
+    <script src="/fr/script2.js"></script>
+  </main>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; Le magnifique royaume de Colchide</p>
+  </footer>
+</body>
+
+</html>

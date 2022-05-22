@@ -13,42 +13,51 @@
 
     <!-- Navigation Section-->
     <header class="flexContainer">
-        <div id="logo">
-            <img src="img/logo.png" alt="logo" width="100" />
+        <div id="logo" class="flexContainerVertical">
+          <img src="img/logo.png" alt="logo" width="100" />
         </div>
         <nav id="mainNav">
-            <ul class="flexContainer">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/royal-family.html">Royal Family</a></li>
-                <li><a href="/assets.html">Royal Assets</a></li>
-                <li><a href="/contact.html">Contact Us</a></li>
-            </ul>
+          <ul class="flexContainer">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/royal-family.html">Royal Family</a></li>
+            <li><a href="/assets.html">Royal Assets</a></li>
+            <li><a href="/contact.html">Contact Us</a></li>
+          </ul>
         </nav>
-    </header>
+        <div id="lang" class="tooltip">
+          <a href="/fr/royal-familyFR.html"><img src="/img/World-fr.png" alt="switch langage" width="70"></a>
+          <span class="tooltiptext">Switch langage to FR</span>
+      </div>
+      </header>
+    <!-- main content -->
+    <main>
+        <h1 class="hTitles">
+            The Royal Family
+        </h1>
+        <!-- pictures royal family-->
+        <section class="flexContainerVertical">
+            <div class="centerObject">
+                <img src="/img/aeetes.png" alt="The King Aeetes" height="490" />
+                <h2>King Aeetes</h2>
+                <p id="Aeetes" class="quote">Brrrrrr, It's getting cold ! <br /> Where is my Golden Fleece ?</p>
+            </div>
 
-    <h1 class="hTitles">
-        The Royal Family
-    </h1>
-    <section class="flexContainerVertical">
-        <div class="centerObject">
-            <img src="/img/aeetes.png" alt="The King Aeetes" height="512" />
-            <h2>King Aeetes</h2>
-            <p id="Aeetes" class="quote">Brrrrrr, It's getting cold ! <br /> Where is my Golden Fleece ?</p>
-        </div>
+            <div class="centerObject">
+                <img src="/img/madeas.jpeg" alt="Princess Madeas" height="490" />
+                <h2>Princess Madeas</h2>
+                <p id="Madeas" class="quote">I'm looking for my little brother. <br />Have you seen it ?</p>
+            </div>
 
-        <div class="centerObject">
-            <img src="/img/madeas.jpeg" alt="Princess Madeas" height="512" />
-            <h2>Princess Madeas</h2>
-            <p id="Madeas" class="quote">I'm looking for my little brother. <br />Have you seen it ?</p>
-        </div>
+            <div class="centerObject">
+                <img src="/img/Idyia.jpeg" alt="Queen Idyia" height="490">
+                <h2>Queen Idyia</h2>
+                <p id="Idyia" class="quote">I know Everything... <br>But... wait, what's this ?</p>
+            </div>
 
-        <div class="centerObject">
-            <img src="/img/Idyia.jpeg" alt="Queen Idyia" height="512">
-            <h2>Queen Idyia</h2>
-            <p id="Idyia" class="quote">I know Everything... <br>But... wait, what's this ?</p>
-        </div>
-
-    </section>
+        </section>
+    </main>
+    <!-- end of main content-->
+    <!-- Footer -->
     <footer>
         <p>&copy; The Beautiful Kingdom of Colchis</p>
     </footer>
