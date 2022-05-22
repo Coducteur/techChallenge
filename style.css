@@ -86,7 +86,7 @@ Nav {
 
     /* Position the tooltip */
     position: absolute;
-    position:sticky
+    position:sticky;
     z-index: 100;
 }
 
