@@ -73,8 +73,8 @@ footer {
 
 /* index page */
 #welcome {
-    height: 600px;
-    background-image: url(/img/img.png);
+    height: 1000px;
+    background-image: url(/img/bateau.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -82,12 +82,13 @@ footer {
     text-shadow: 2px 2px gray;
 }
 
+
 /* royal Family page */
 .quote {
     font-size: 36px;
 }
 
-.flexContainerRoyal {
+.flexContainerVertical {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -126,3 +127,10 @@ button {
     color: black;
     border: 1px solid
 }
+
+/* Assets page */
+
+th {
+    padding: 50px;
+}
+
