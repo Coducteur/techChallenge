@@ -28,11 +28,60 @@
 
   <!-- Add this to a seperate page, e.g. assets.html
 			Kingdom's Royal Assets or Sporting Results table -->
-  <h1>
+  <h1 class="hTitles">
     The Kingdom's Royal Assets / Javelin Event Results
   </h1>
-  Asset... | Number... | Worth... Item 1...| 4... ] 6,000 Points... |
-  Player... | Family Name... 94... | Sir John. | John of Elderworth
+  <section id="tableRoyalAssets" class="flexContainerVertical">
+    <div id="tableKRA">
+      <h2 class="centerObject">The Kingdom's Royal Assets:</h2>
+      <table class="centerObject">
+        <thead>
+         <tr>
+            <th>Asset Name</th>
+            <th>Number</th>
+            <th>Worth</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="trWhite">
+            <td>Stables</td>
+            <td>42</td>
+            <td>6 000 000 lari</td>
+          </tr>
+          <tr class="trOrange">
+            <td>Castles</td>
+            <td>4</td>
+            <td>24 000 000 lari</td>
+          </tr>
+          <tr class="trWhite">
+            <td>Guards</td>
+            <td>10 000</td>
+            <td>10 000 000 lari</td>
+          </tr>
+          <tr class="trOrange">
+            <td>Wagons</td>
+            <td>18</td>
+            <td>4 000 lari</td>
+          </tr>
+          <tr class="trWhite">
+            <td>Livestock</td>
+            <td>51 942</td>
+            <td>4 000 000 lari</td>
+          </tr>
+          <tr class="trOrange">
+            <td>Armors</td>
+            <td>997 000</td>
+            <td>11 000 000 lari</td>
+          </tr>
+          <tr class="trWhite">
+            <td>Canons</td>
+            <td>99</td>
+            <td>110 000 000 lari</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
   <section id="tableJavelin" class="flexContainerVertical">
     <div id="tableJER">
       <h2 class="centerObject">Javelin Event Résults:</h2>
@@ -45,26 +94,36 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="trWhite">
             <td>1</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trOrange">
             <td>2</td>
-            <td>Medeas</td>
+            <td>Madeas</td>
             <td>8000 pts</td>
           </tr>
-          <tr>
+          <tr class="trWhite">
             <td>3</td>
             <td>Soldierees</td>
             <td>7500 pts</td>
+          </tr>
+          <tr class="trOrange">
+            <td>4</td>
+            <td>- - -</td>
+            <td>- - - pts</td>
+          </tr>
+          <tr class="trWhite">
+            <td>5</td>
+            <td>- - -</td>
+            <td>- - - pts</td>
           </tr>
         </tbody>
       </table>
     </div>
     <div id="tableJTS">
-      <h2 class="centerObject">Javelin Top score:</h2>
+      <h2 id="hJTS" class="centerObject">Javelin Top score:</h2>
       <table class="centerObject">
         <thead>
           <tr>
@@ -74,55 +133,96 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="trWhite">
             <td>1</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trOrange">
             <td>2</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trWhite">
             <td>3</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trOrange">
             <td>4</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trWhite">
             <td>5</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trOrange">
             <td>6</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trWhite">
             <td>7</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trOrange">
             <td>8</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trWhite">
             <td>9</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
           </tr>
-          <tr>
+          <tr class="trOrange">
             <td>10</td>
             <td>Aeetes</td>
             <td>9999 pts</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <section id="tableNextEvent" class="flexContainerVertical">
+    <div id="tableNE">
+      <h2 class="centerObject">Next Event</h2>
+      <table class="centerObject">
+        <thead>
+         <tr>
+            <th>date</th>
+            <th>Task</th>
+            <th>Status</th>
+            <th>Name of participants</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="trWhite">
+            <td>Yesterday</td>
+            <td>Take the Bulls</td>
+            <td>Done</td>
+            <td>Jason</td>
+          </tr>
+          <tr class="trOrange">
+            <td>Today</td>
+            <td>Make an army</td>
+            <td>To do</td>
+            <td>Jason</td>
+          </tr>
+          <tr class="trWhite">
+            <td>Today</td>
+            <td>marry Madeas</td>
+            <td>To do</td>
+            <td>Jason / Madeas</td>
+          </tr>
+          <tr class="trOrange">
+            <td>next month</td>
+            <td>Javelin Contest</td>
+            <td>To do</td>
+            <td>Everybody</td>
           </tr>
         </tbody>
       </table>
