@@ -53,6 +53,7 @@ h2 {
     list-style: none;
     text-decoration: none;
     margin: 15px;
+
 }
 
 .centerObject {
@@ -86,7 +87,7 @@ Nav {
 
     /* Position the tooltip */
     position: absolute;
-    position:sticky;
+    position: sticky;
     z-index: 100;
 }
 
